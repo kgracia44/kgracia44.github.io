@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Will come back and write a first post
+title: Will travel through time to write a real first post...
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
