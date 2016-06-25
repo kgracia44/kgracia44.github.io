@@ -43,9 +43,12 @@ _______________________________
 
 In exploring the questions of 'what made a hit soar to the top of the charts?' and 'how long did a hit stay there?', one first has to set definitons for what qualifies as a successful hit.
 
-I am choosing 2 indicators for a successful hit, which will be the dependent variables of this study. Y1 = Amount of weeks a track took to rise to its peak in year 2000, and Y2 = Number of weeks a track was on the BB Hot 100 Chart for year 2000.
+I am choosing 2 indicators for a successful hit, which will be the dependent variables of this study. 
 
-A successful track will have a small Y1 and large Y2.
+Y1 = Number of weeks a track was on the BB Hot 100 Chart for year 2000.
+Y2 = Amount of weeks a track took to rise to its peak in year 2000.
+
+A successful track will have a large Y1 and small Y2.
 
 Problem Statement: 
 Does the genre of a song or its length (in seconds) influence the success of a hit? By comparing genre of song with Y1 and Y2, and track length in seconds with Y1 and Y2, we may observe whether a correlation exists with the independent variables. If a correlation is observed, further investigation is warranted.
@@ -107,4 +110,5 @@ Need to go back and tidy up data further (specifically, genres section of data)
 Future Steps_______________________________________________________
 
 -2 tailed t-test for one-sample 
+
 -Model and see if it fits with data from future years
