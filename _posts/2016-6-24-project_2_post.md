@@ -32,9 +32,9 @@ STEP 3: Visualizing the data...
 
 ![Y1 v X1]({{ site.url }}/images/y1x1.png)
 
-![Y2 v X1]({{ site.url }}/images/y1x2.png)
+![Y2 v X1]({{ site.url }}/images/y2x1.png)
 
-![Y1 v X2]({{ site.url }}/images/y2x1.png)
+![Y1 v X2]({{ site.url }}/images/y1x2.png)
 
 ![Y2 v X2]({{ site.url }}/images/y2x2.png)
 
@@ -46,9 +46,12 @@ In exploring the questions of 'what made a hit soar to the top of the charts?' a
 I am choosing 2 indicators for a successful hit, which will be the dependent variables of this study. 
 
 Y1 = Number of weeks a track was on the BB Hot 100 Chart for year 2000.
+
 Y2 = Amount of weeks a track took to rise to its peak in year 2000.
 
+
 A successful track will have a large Y1 and small Y2.
+
 
 Problem Statement: 
 Does the genre of a song or its length (in seconds) influence the success of a hit? By comparing genre of song with Y1 and Y2, and track length in seconds with Y1 and Y2, we may observe whether a correlation exists with the independent variables. If a correlation is observed, further investigation is warranted.
@@ -101,10 +104,14 @@ The genre of a song does impact the success of a hit on the BB Top 100 chart, ac
 
 The length of a song does not impact the success of a hit on the BB Top 100 chart, according to the metrics I chose (Y1 and Y2).
 
+
+
 The real conclusion:
 
 Need to include more variables in data analysis.
+
 Need to justify assumptions or change assumptions based on evidence.
+
 Need to go back and tidy up data further (specifically, genres section of data)
 
 Future Steps_______________________________________________________
