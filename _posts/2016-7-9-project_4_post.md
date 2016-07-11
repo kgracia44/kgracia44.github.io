@@ -32,7 +32,7 @@ Results
 
 After scraping up to 100 results per city (for a total of 14 cities), I ended up with a dataset of 73 job postings with listed salaries (out of ~2000 total listings). Average salary was $113,771 and median salary was $120,000. See the descriptive statistics below as well as a histogram of the scraped salaries.
 
-![Descriptive Statistics of Scraped Salaries]({{ site.url }}/images/desk_stats_p4.png)
+![Descriptive Statistics of Scraped Salaries]({{ site.url }}/images/desc_stats_p4.png)
 
 ![Histogram of Scraped Salaries]({{ site.url }}/images/p4_sal_hist.png)
 
@@ -41,6 +41,7 @@ The following models were produced:
 -Logistic Regression Model with all features
 -Logistic Regression Model with all features, with L1 penalization
 -Logistic Regression Model with only job title features
+_________________________________________________________
 
 Model Evaluation:
 
@@ -61,6 +62,7 @@ Model 1: Logisitic Regression Model with all features (location and job title va
 
       0.61611111111111116 
 
+_________________________________________________________
 
 Model 2: Logisitic Regression Model with all features (location and job title variables) and Lasso Regularization:
 
@@ -78,6 +80,7 @@ Model 2: Logisitic Regression Model with all features (location and job title va
       Cross Validation Score (mean of r^2 scores of model):
 
       0.60222222222222221    
+_________________________________________________________
 
 Model 3: Logisitic Regression Model with only job title features (whether job listing was for lead, analyst, scientist or other position):
 
@@ -97,10 +100,8 @@ Model 3: Logisitic Regression Model with only job title features (whether job li
       0.60222222222222221  
 
 
-Discussion / Interpretation of Results
 
--try to interpret results
--explain how certain data issues are affecting results/models
+Discussion / Interpretation of Results
 
 It can be seen from the results in the visuals above that model 1, Logisitic Regression Model with all features (location and job title variables), was the best performing model of the three explored. The precision and recall scores, the area under the ROC curve, and the cross-validation score were the best for this model. However, looking at the confusion matrix, one can see that not many predictions were obtained from the model. This is mainly due to the very small sample size.
 
