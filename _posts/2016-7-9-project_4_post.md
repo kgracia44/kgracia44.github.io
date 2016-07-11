@@ -39,7 +39,9 @@ After scraping up to 100 results per city (for a total of 14 cities), I ended up
 The following models were produced:
 
 -Logistic Regression Model with all features
+
 -Logistic Regression Model with all features, with L1 penalization
+
 -Logistic Regression Model with only job title features
 _________________________________________________________
 
@@ -57,7 +59,9 @@ Model 1: Logisitic Regression Model with all features (location and job title va
 
 
       ROC/AUC:
+
 ![Model 1 ROC/AUC]({{ site.url }}/images/lr_mod1_roc_auc.png)      
+      
       Cross Validation Score (mean of r^2 scores of model):
 
       0.61611111111111116 
@@ -74,9 +78,10 @@ Model 2: Logisitic Regression Model with all features (location and job title va
 
 ![Model 2 Classification Report]({{ site.url }}/images/lr_mod2_classReport.png)      
 
-
       ROC/AUC:
+
 ![Model 2 ROC/AUC]({{ site.url }}/images/lr_mod2_roc_auc.png)      
+      
       Cross Validation Score (mean of r^2 scores of model):
 
       0.60222222222222221    
@@ -94,7 +99,9 @@ Model 3: Logisitic Regression Model with only job title features (whether job li
 
 
       ROC/AUC:
+
 ![Model 3 ROC/AUC]({{ site.url }}/images/lr_mod3_roc_auc.png)      
+      
       Cross Validation Score (mean of r^2 scores of model):
 
       0.60222222222222221  
