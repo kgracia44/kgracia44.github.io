@@ -43,7 +43,9 @@ The following models were produced:
 -Logistic Regression Model with all features, with L1 penalization
 
 -Logistic Regression Model with only job title features
+
 _________________________________________________________
+
 
 Model Evaluation:
 
@@ -68,6 +70,7 @@ Model 1: Logisitic Regression Model with all features (location and job title va
 
 _________________________________________________________
 
+
 Model 2: Logisitic Regression Model with all features (location and job title variables) and Lasso Regularization:
 
       Confusion Matrix:
@@ -84,8 +87,10 @@ Model 2: Logisitic Regression Model with all features (location and job title va
       
       Cross Validation Score (mean of r^2 scores of model):
 
-      0.60222222222222221    
+      0.60222222222222221  
+
 _________________________________________________________
+
 
 Model 3: Logisitic Regression Model with only job title features (whether job listing was for lead, analyst, scientist or other position):
 
