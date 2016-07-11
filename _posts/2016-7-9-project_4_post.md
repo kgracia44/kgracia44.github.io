@@ -126,14 +126,19 @@ In order to obtain an accurate model, I need to go back and fix certain data iss
 Recommendations
 
 The next steps listed below are recommended before any further analysis can be conducted: 
+
 • Obtain more data
+
 • Fix categorization of job titles:
      
     As of now, any job title with keywords lead, sr, senior will be bucketed as sr_type regardless of analyst and scientist keyword. Should aim to make two seperate dummy variables: one for senior/manager titles, and one for actual job title (analyst, engineer, etc.)
 
 • Recategorize Location by region
+
 • Explore the following model: Logistic Regression Model with only location features
+
 • Continue tuning model
+
 • Evaluate model using Logistic Regression CV
 
 
