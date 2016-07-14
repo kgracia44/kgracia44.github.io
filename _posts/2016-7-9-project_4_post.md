@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Webscraping and Logistic Regression -- Predicting high and low salary values for job postings on Indeed.com
+title: Disaster Relief + Classification -- Predicting likelihood of survival of a passenger on the Titantic
 ---
 
 Executive Summary
 
-The aim of this report is to discuss logistic regression models that predict whether a salary for a job posting on Indeed.com will be high or low. Most job postings do not include salary information. The goal of the project is to use job postings with salary information to build a model that would predict whether salaries for job postings without listed salaries would be high or low. Data was scraped from Indeed.com, cleaned and prepped for fitting of logistic regression models. Models were then evaluated and tuned. The results indicate that more data needs to be scraped and certain data cleaning and organization methods need to be revisited and issues need to be addressed. The report concludes that although predictions of high or low salaries are possible, the way that certain categorical variables are bucketed or organized will heavily impact the prformance of the models. It is recommended that further analysis should be put on hold until enough data is gathered and specific data organization issues are addressed.
+TThe aim of this report is to discuss logistic regression models that predict whether a salary for a job posting on Indeed.com will be high or low. Most job postings do not include salary information. The goal of the project is to use job postings with salary information to build a model that would predict whether salaries for job postings without listed salaries would be high or low. Data was scraped from Indeed.com, cleaned and prepped for fitting of logistic regression models. Models were then evaluated and tuned. The results indicate that more data needs to be scraped and certain data cleaning and organization methods need to be revisited and issues need to be addressed. The report concludes that although predictions of high or low salaries are possible, the way that certain categorical variables are bucketed or organized will heavily impact the prformance of the models. It is recommended that further analysis should be put on hold until enough data is gathered and specific data organization issues are addressed.
 
 
 Introduction
