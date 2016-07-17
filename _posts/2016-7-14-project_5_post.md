@@ -11,6 +11,7 @@ knn_model = KNeighborsClassifier(algorithm ='auto', leaf_size = 30, metric = 'mi
  
 The report concludes that likelihood of survival of passengers of the Titanic can be accurately predicted with properly prepped data and a kNN classifier. Titanic passengers who were female, from passenger class 1, and part of a small (1 - 3 relations) family. It is recommended that future analysis include the feature of cabin number (which is probably a proxy for likely location on the Titanic, which may be an important feature considering survival).
 
+_________________________________________________________
 
 Introduction
 
@@ -18,12 +19,13 @@ Frequently after a disaster, researchers and firms will come in to give an indep
 
 In this project, I set up a connection to a remote database and conducted querys (using Python). After performing EDA, I proceeded to construct a logistic regression model as well as a kNN model and test/validate their results. Using several features of a passenger, I attempted to predict a corresponding classification (survivor or non-survivor) for that passenger. 
 
+_________________________________________________________
 
 Methods
 
 First I acquired data from a remote database by setting up a connection and reading the SQL table into a pandas DataFrame using Python. The following snippet provides the initial risks and assumptions observed:
 
-![Initial Risks and Assumptions of Data]({{ site.url }}/images/project_5/risk_assump.png) 
+![Initial Risks and Assumptions of Data]({{ site.url }}/images/project_5/risks_assump.png) 
 
 I decided to impute missing values for ages based on a passenger's salutation group (i.e., 'Mr.', 'Mrs.', 'Ms.', and 'Master'). I determined the median ages of passengers grouped by their salutations, and replaced missing age values with those median values according to their salutation. I transformed the 'Fare' variable by creating a column for the log values of the (non-zero) fares for each passenger. I treated the 'Fare' column this way in order to address natural outliers found in the data. 
 
@@ -31,24 +33,25 @@ Target variable was set as the 'Survived' indicator variable, which was already 
 
 See data dictionary below:
 
-![Variable Names and Data Types]({{ site.url }}/images/project_5/data-dict1.png)
+![Variable Names and Data Types]({{ site.url }}/images/project_5/data_dict1.png)
 
-![Variable Types]({{ site.url }}/images/project_5/data-dict2.png)
+![Variable Types]({{ site.url }}/images/project_5/data_dict2.png)
 
 I then built several logistic regression models and one kNN model using several methods. Each model was evaluated based on their accuracy scores and other metrics.
   
-  1) I first built a 'vanilla' logistic regression model, not specifying any parameters and not training the model.
+    1) I first built a 'vanilla' logistic regression model, not specifying any parameters and not training the model.
 
-  2) I then built a logistic regression model, using Train-Test-Split method to test and validate model.
+    2) I then built a logistic regression model, using Train-Test-Split method to test and validate model.
 
-  3) I then built a cross-validated logistic regression model, using 5 k-folds.
+    3) I then built a cross-validated logistic regression model, using 5 k-folds.
 
-  4) I then built a grid-searched, cross-validated logistic regression model, in which GridSearch CV in sklearn was used to indentify the optimal hyperparameters for the model.
+    4) I then built a grid-searched, cross-validated logistic regression model, in which GridSearch CV in sklearn was used to indentify the optimal hyperparameters for the model.
 
-  5) I then built a grid-searched kNN classifier model, in which GridSearch CV in sklearn was used to indentify the optimal hyperparameters for the model.
+    5) I then built a grid-searched kNN classifier model, in which GridSearch CV in sklearn was used to indentify the optimal hyperparameters for the model.
 
 These models were explored and evaluated using the following metrics: confusion matrix, classification report, ROC curve/AUC, and cross validation score (which was the average accuracy score for the models).
 
+_________________________________________________________
 
 Results
 
@@ -108,6 +111,7 @@ Model 2: Gridsearched CV kNN Classifier Model with gender, pclass, age, fare and
 
       0.84745762711864403  
 
+_________________________________________________________
 
 Discussion / Interpretation of Results
 
@@ -139,6 +143,7 @@ Interpreting ROC curve and AUC of model:
 ROC (Receiver Operating Characteristic) curve visualizes the performance of a binary classifier model, like the model in this analysis. It is a plot of the True Positive Rate on the y-axis (aka recall ==> TPR = TP/(TP + FN), versus the False Positive Rate on the x-axis (FPR = FP/(FP + TN) for every possible classification threshold. The threshold determines the weight of sensitivity (recall) and specificity, and default is usually 50% for each (equally weighted).
 The AUC metric, or area under the curve, of the ROC curve is the accuracy of the model. It is the performance score, or overall measure of fit, of the model at the set threshold. Both ROC curves for Model 1 and Model 2 have a sharp elbow, which indicates a clear separation of survivors and non-survivors predicted. This may be how I went about training and testing the data, and validating the models. Will need to look into this further. The AUC, or accuracy, for Model 2 was better than that of Model 1 (0.83 > 0.77).
 
+_________________________________________________________
 
 Conclusion
 
