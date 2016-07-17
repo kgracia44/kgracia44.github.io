@@ -76,15 +76,15 @@ Model 1: CV Logisitic Regression Model with gender, pclass, age, fare and family
 
       Confusion Matrix:
 
-![Model 1 Confusion Matrix]({{ site.url }}/images/mod1_matrix.png)      
+![Model 1 Confusion Matrix]({{ site.url }}/images/project_5/mod1_matrix.png)      
 
       Classification Report:
 
-![Model 1 Classification Report]({{ site.url }}/images/mod1_classReport.png) 
+![Model 1 Classification Report]({{ site.url }}/images/project_5/mod1_classReport.png) 
 
       ROC/AUC:
 
-![Model 1 ROC/AUC]({{ site.url }}/images/mod1_roc_auc.png)      
+![Model 1 ROC/AUC]({{ site.url }}/images/project_5/mod1_roc_auc.png)      
       
       Cross Validation Score (mean of accuracy scores of model):
 
@@ -97,15 +97,15 @@ Model 2: Gridsearched CV kNN Classifier Model with gender, pclass, age, fare and
 
       Confusion Matrix:
 
-![Model 2 Confusion Matrix]({{ site.url }}/images/mod2_matrix.png)      
+![Model 2 Confusion Matrix]({{ site.url }}/images/project_5/mod2_matrix.png)      
 
       Classification Report:
 
-![Model 2 Classification Report]({{ site.url }}/images/mod2_classReport.png)
+![Model 2 Classification Report]({{ site.url }}/images/project_5/mod2_classReport.png)
 
       ROC/AUC:
 
-![Model 2 ROC/AUC]({{ site.url }}/images/mod2_roc_auc.png)      
+![Model 2 ROC/AUC]({{ site.url }}/images/project_5/mod2_roc_auc.png)      
       
       kNN accuracy score of model with optimal parameters:
 
