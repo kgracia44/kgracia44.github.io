@@ -73,9 +73,11 @@ Dataset of 350 movies with ratings.
 ![Average Ratings Over Time (Years)]({{ site.url }}/images/project_6/avg_time.png)
 
     Ratings Distribution (as continuous variable):
+
 ![Ratings Distribution (as continuous variable)]({{ site.url }}/images/project_6/ratings_hist.png)
 
     Ratings Distribution (as categorical variable; 1 = high, 0 = low):
+    
 ![Ratings Distribution (as categorical variable)]({{ site.url }}/images/project_6/ratings_dist.png)
 
 _________________________________________________________
