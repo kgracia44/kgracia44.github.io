@@ -8,10 +8,11 @@ EDA Highlights and Project Summary
 Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe the final project I have chosen to complete my Data Science Immersive journey at General Assembly. I will also summarize the highlights of the Exploratory Data Analysis (EDA). 
 
 Here we go!
+
 _______________________________________________________________________________________
 
 ### Capstone Proposal: 
-### Identify services that lead to positive outcomes for foster care youth who age out of the system.
+Identify services that lead to positive outcomes for foster care youth who age out of the system.
 
 
 #### --Context--
@@ -23,6 +24,7 @@ There is a sub-population of children in the foster care system (~10% of the fos
 The John H. Chafee Foster Care Independence Program (CFCIP) was initiated to address this public health issue by providing federal funds to states for the design and administration of services geared towards helping these youth transition into adulthood successfully.
 
 CFCIP considers a former foster youth as successfully transitioned into adulthood if he or she is able to obtain positive well-being, health, education, and finanacial outcomes. 
+
 
 ##### The services that are supported by these funds should:
 
@@ -43,28 +45,32 @@ CFCIP considers a former foster youth as successfully transitioned into adulthoo
    - Making available vouchers for education and training, including postsecondary ￼training and education
 
 
+
 ##### For a more detailed breakdown of the program, check out the logic model below: 
 
 ![CFCIP Logic Model]({{ site.url }}/images/capstone/cfcip_logic_model.png)
 
 
-__________________________________________________________________________________________________
+_________________________________________________________________________________________________
+
 
 #### --Capstone Project Specific Aim and Goals--
 
 Build and develop a predictive model in order to:
     
-1) Evaluate the John H. Chafee Foster Care Independence Program (CFCIP)
-2) Identify which services provided lead to what outcomes
-3) Identify outcomes experienced by former foster youth who receive services
-4) Recommend which services to focus funds on
-__________________________________________________________________________________________________
+  1) Evaluate the John H. Chafee Foster Care Independence Program (CFCIP)
+  2) Identify which services provided lead to what outcomes
+  3) Identify outcomes experienced by former foster youth who receive services
+  4) Recommend which services to focus funds on
+_________________________________________________________________________________________________
+
 
 #### --Problem statement--
 
 Which services provided by Chafee funded counties or agencies lead to positive (well-being, health, financial, and educational) outcomes for foster youth who age out of the system?
 
-__________________________________________________________________________________________________
+_________________________________________________________________________________________________
+
 
 #### --Data Cleaning and Munging Approach--
 
@@ -122,6 +128,8 @@ Raw data obtained from the National Youth in Transition Database (NYTD)
 - Total of 23775 rows, and 49 columns
 
 
+
+
 ##### Data Cleaning and Munging Plan:
     
 1) Load 3 starting datasets into pandas dataframe for each
@@ -177,7 +185,9 @@ Raw data obtained from the National Youth in Transition Database (NYTD)
 - Load cleaned dataset into local postgres DB
 
 
-____________________________________________________________________________________________________________________
+_________________________________________________________________________________________________
+
+
 
 #### -- Risks and Assumptions --
 
@@ -269,7 +279,8 @@ ________________________________________________________________________________
        - Responses are from foster youth participant and no one else
        - Response rates varied dramatically by state; this may be a reflection of variance in data collection procedures
         
-_________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 
 - Risk: Raw data/Initial dataset
@@ -285,6 +296,7 @@ ________________________________________________________________________________
        - Assuming data imputation done correctly and based on valid methodology. 
        - Excluding LcLFIPSSv from analysis because I do not have codebook for values for this feature
            - Perhaps can use in future
+
 
 
 _________________________________________________________________________________________________
@@ -321,6 +333,8 @@ Outline
 
     - Get 2015 data
     - Evaluate performance of model predictions for outcomes_2015 on 2015 data
+
+
 
 _________________________________________________________________________________________________
 
