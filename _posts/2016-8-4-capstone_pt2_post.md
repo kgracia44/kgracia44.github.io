@@ -59,8 +59,11 @@ ________________________________________________________________________________
 Build and develop a predictive model in order to:
     
   1) Evaluate the John H. Chafee Foster Care Independence Program (CFCIP)
+  
   2) Identify which services provided lead to what outcomes
+  
   3) Identify outcomes experienced by former foster youth who receive services
+  
   4) Recommend which services to focus funds on
 _________________________________________________________________________________________________
 
