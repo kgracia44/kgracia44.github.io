@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Capstone Project -- Context and EDA
+title: Capstone Project -- Factors That Impact Educational Attainment Among Foster Youth 
 ---
 
 EDA Highlights and Project Summary
 
-Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe the final project I have chosen to complete my Data Science Immersive journey at General Assembly. I will also summarize the highlights of the Exploratory Data Analysis (EDA). 
+Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly. I will start off with some context, then an overview of my approach, and conclude with some insightful take-aways for the problem I chose to explore. 
 
 Here we go!
 
@@ -73,7 +73,7 @@ ________________________________________________________________________________
 
 #### --Problem statement--
 
-Which services provided by Chafee funded counties or agencies lead to positive (well-being, health, financial, and educational) outcomes for foster youth who age out of the system?
+Which services geared towards foster youth aging out of the system lead to positive educational outcomes?
 
 _________________________________________________________________________________________________
 
