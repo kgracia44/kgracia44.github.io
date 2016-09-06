@@ -34,7 +34,7 @@ CFCIP considers a former foster youth as successfully transitioned into adulthoo
 _________________________________________________________________________________________________
 
 
-#### --Capstone Project Specific Aim and Goals--
+### --Capstone Project Specific Aim and Goals--
 
 Build and develop a predictive model in order to:
     
@@ -45,7 +45,6 @@ Build and develop a predictive model in order to:
   
   
   3) Recommend which services to focus funds on
-_________________________________________________________________________________________________
 
 
 #### --Problem statement--
@@ -55,60 +54,29 @@ Which services geared towards foster youth aging out of the system lead to posit
 _________________________________________________________________________________________________
 
 
-#### --Data Cleaning and Munging Approach--
+### --Approach--
 
-#### Raw Data Source:
+  1) Select Target Variable
 
-Raw data obtained from the National Youth in Transition Database (NYTD)
+  2) Select Features
+  
+  3) Build Models
+  
+  4) Recommendations
+  
+  5) Next Steps
 
-##### Starting datasets:
 
-###### A) Services and demographic data for Fiscal Years (FY) 2011 - 2014 (Baseline populations for each FY)
-        
-- cross-sectional data collected over 8 six-month-periods
 
-- for all foster youth receiving independent living services funded through CFCIP for each fiscal year
+#### Raw Data Source and other references:
 
-- data collected from all 50 states (my data excludes data from Connecticut) and D.C. and Puerto Rico
+![Data Source and References]({{ site.url }}/images/capstone/sources.png)
 
-- Total of 675645 rows, and 31 columns
-        
-###### B) Outcomes data for Wave 1 and Wave 2 of Cohort 1
-            
-- cohort 1 consists of foster youth who received services in FY 2011 AND participated in surveys
+##### Population analyzed
 
-- longitudinal data collected, 2 follow-up periods (every 2 years)
+The diagram below, obtained from the NYTD Outcome User Guide that was provided with the dataset, depicts the population that was included in my analysis. The green semi-circle represents all the foster care children in the system nationwide. The blue circle represents the foster youth who are about to age out of the system without a permanent home, which is about 10% of the foster care population. These 10% also represent the baseline population for CFCIP. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the baseline population) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
 
-- about 5% of baseline population (Dataset A, FY 2011)
-
-- Wave 1 = Outcomes Survey collected in FY 2011, within 45 days of youth's 17th birthday, from 49 states and D.C. and Puerto Rico (data excludes data from Connecticut) 
-
-- Wave 2 = Outcomes Follow-Up Survey collected in FY 2013, within 45 days of youth's 19th birthday, from 48 states and D.C. (data excludes data from Connecticut, New York and Puerto Rico)
-
-- Missing: Wave 3 = Outcomes Follow-Up Survey collected in FY 2015, within 45 days of youth's 21st birthday
-
-- Total of 22811 rows, and 48 columns
-
-![Cohort 1 Wave Distribution]({{ site.url }}/images/capstone/c1_wave_dist.png)
-
-        
-###### C) Outcomes data for Wave 1 of Cohort 2
-            
-- cohort 2 consists of foster youth who received services in FY 2014 AND participated in surveys
-
-- longitudinal data collected, 2 follow-up periods (every 2 years)
-
-- about 5% of baseline population (Dataset A, FY 2014)
-
-- data collected from 49 states and D.C. and Puerto Rico (data excludes data from Connecticut) 
-
-- Wave 1 = Outcomes Survey collected in FY 2014, within 45 days of youth's 17th birthday
-
-- Missing: Wave 2 = Outcomes Follow-Up Survey to be collected in FY 2016, within 45 days of youth's 21st birthday
-
-- Missing: Wave 3 = Outcomes Follow-Up Survey to be collected in FY 2018, within 45 days of youth's 21st birthday
-
-- Total of 23775 rows, and 49 columns
+![Cohort 1 Wave Distribution]({{ site.url }}/images/capstone/cohort_1_popDiagram.png)
 
 
 
