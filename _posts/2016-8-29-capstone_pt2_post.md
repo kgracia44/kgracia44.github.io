@@ -11,39 +11,19 @@ Here we go!
 
 _______________________________________________________________________________________
 
-### Capstone Proposal: 
-Identify services that lead to positive outcomes for foster care youth who age out of the system.
 
-
-#### --Context--
+### --Context--
 
 ##### Public Health Issue: Negative outcomes experienced by foster care youth who age out of the system
 
-There is a sub-population of children in the foster care system (~10% of the foster care population) who experience a phenomenon known as foster care drift and end up aging out of the system (at age 18) with no permanent home. Because these youth experience extreme instability and usually lack knowledge and skills that lead to self-sufficiency in adulthood, this sub-population is at a higher risk of experiencing negative outcomes such as homelessness, unemployment, incarceration, and mental health issues.  
+There is a sub-population of children in the foster care system (~10% of the foster care population) who experience a phenomenon known as foster care drift and end up aging out of the system (at age 18) with no permanent home. This sub-population is at a higher risk of experiencing negative outcomes such as homelessness, unemployment, incarceration, and mental health issues because these youth experience extreme instability and usually lack knowledge and skills that lead to self-sufficiency in adulthood.  
 
 The John H. Chafee Foster Care Independence Program (CFCIP) was initiated to address this public health issue by providing federal funds to states for the design and administration of services geared towards helping these youth transition into adulthood successfully.
 
+![CFCIP Funds]({{ site.url }}/images/capstone/funds_for_services.png)
+
+
 CFCIP considers a former foster youth as successfully transitioned into adulthood if he or she is able to obtain positive well-being, health, education, and finanacial outcomes. 
-
-
-##### The services that are supported by these funds should:
-
- - Identify youth who are likely to remain in foster care until 18 years of age (age out of the system)
-
- - Help these youth:
-
-   - Make the transition to self-sufficiency by providing education, training, and services necessary to obtain employment
-
-   - Prepare for and enter postsecondary training and education institutions, by providing services
-
-   - Receive personal and emotional support through mentors and the promotion of interactions with dedicated adults
-
-   - Identify former foster care recipients between 18 and 21 years of age to complement their own efforts to achieve self-sufficiency by:
-
-   - Providing financial, housing, counseling, employment, education, and other appropriate support and services
-
-   - Making available vouchers for education and training, including postsecondary ￼training and education
-
 
 
 ##### For a more detailed breakdown of the program, check out the logic model below: 
@@ -61,13 +41,10 @@ Build and develop a predictive model in order to:
   1) Evaluate the John H. Chafee Foster Care Independence Program (CFCIP)
   
 
-  2) Identify which services provided lead to what outcomes
-  
-
-  3) Identify outcomes experienced by former foster youth who receive services
+  2) Identify which services provided lead to positive educational outcomes
   
   
-  4) Recommend which services to focus funds on
+  3) Recommend which services to focus funds on
 _________________________________________________________________________________________________
 
 
