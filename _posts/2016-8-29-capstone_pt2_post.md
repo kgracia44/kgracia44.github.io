@@ -12,7 +12,7 @@ Here we go!
 _______________________________________________________________________________________
 
 
-### --Context--
+### -- Context --
 
 ##### Public Health Issue: Negative outcomes experienced by foster care youth who age out of the system
 
@@ -34,7 +34,7 @@ CFCIP considers a former foster youth as successfully transitioned into adulthoo
 _________________________________________________________________________________________________
 
 
-### --Capstone Project Specific Aim and Goals--
+### -- Capstone Project Specific Aims and Problem Statement --
 
 Build and develop a predictive model in order to:
     
@@ -47,14 +47,14 @@ Build and develop a predictive model in order to:
   3) Recommend which services to focus funds on
 
 
-#### --Problem statement--
+#### -- Problem statement --
 
 Which services geared towards foster youth aging out of the system lead to positive educational outcomes?
 
 _________________________________________________________________________________________________
 
 
-### --Approach--
+### -- Approach --
 
   1) Select Target Variable
 
@@ -66,7 +66,10 @@ ________________________________________________________________________________
   
   5) Next Steps
 
+_________________________________________________________________________________________________
 
+
+### -- Data Used in the Analysis --
 
 #### Raw Data Source and other references:
 
@@ -79,70 +82,9 @@ The diagram below, obtained from the NYTD Outcome User Guide that was provided w
 ![Cohort 1 Wave Distribution]({{ site.url }}/images/capstone/cohort_1_popDiagram.png)
 
 
-
-
-##### Data Cleaning and Munging Plan:
-    
-1) Load 3 starting datasets into pandas dataframe for each
-
-- As described in cell above: Dataset A, Dataset B, Dataset C
-
-2) Create dataframe for Cohort 1 Dataset:
-
-- Services and demographic data for foster youth in FY 2011 from dataset A 
-
-- Outcomes data for Wave 1 and Wave 2 from dataset B
-
-- Only include foster youth who completed surveys in both Wave 1 and Wave 2
-
-- Clean data:
-
-    - Drop rows that have missing values in multiple columns (>10)
-
-    - Convert data type of columns AgeMP, EduLevlSv, RaceDcl, RaceUnkn to int
-
-    - Convert data types of columns RepDates_outcomes, RepDates_services and DOB to datetime
-
-    - Identify categorical variable columns that may need to be dummified for later analysis
-
-    - Get rid of special characters (that are not UTF-8) in column HighEdCert
-
-    - Unfortunately, several states have badly encoded unique ID values, which prevents me from tracking those 
-      records. Need to drop data rows from the following states due to data quality issue:
-      ["HI", "IN", "KY", "MS", "OR", "TX", "TN"]
-
-- Load cleaned dataset into local postgres DB
-
-3) Create dataframe for Cohort 2 Dataset:
-
-- Services and demographic data for foster youth in FY 2014 from dataset A
-
-- Outcomes data for Wave 1 from dataset C
-
-- Only include foster youth who completed surveys in Wave 1
-
-- Clean data:
-    
-    - Convert data type of columns AgeMP, EduLevlSv, RaceDcl, RaceUnkn to int
-
-    - Convert data types of columns RepDates_outcomes, RepDates_services, outcmdte and DOB to datetime
-
-    - Identify categorical variable columns that may need to be dummified for later analysis
-
-    - Unfortunately, several states have badly encoded unique ID values, which prevents me from tracking those 
-      records. Need to drop data rows from the following states due to data quality issue:
-      ["HI", "IN", "KY", "MS", "OR", "TX", "TN"]
-
-- Load cleaned dataset into local postgres DB
-
-
-_________________________________________________________________________________________________
-
-
-
 #### -- Risks and Assumptions --
 
-- Risk: Data incomplete
+##### Risk: Data incomplete
     
   1) Issue: Full complement of baseline data will not be complete until after May 15 of "A" pd for next FY
   
@@ -160,9 +102,8 @@ ________________________________________________________________________________
       - Either way, will need to make decision as to which date to use: date collected or date reported  
 
 ____________________________________________________________________________________________________________________
-____________________________________________________________________________________________________________________
 
-- Risk: Data not representative of baseline population; N vs n
+##### Risk: Data not representative of baseline population; N vs n
 
   1) Data sets exclude data from the following states:
         
@@ -210,9 +151,8 @@ ________________________________________________________________________________
          that cohorts are representative.
           
 ____________________________________________________________________________________________________________________
-____________________________________________________________________________________________________________________
 
-- Risk: Non-standardization of survey administration and data collection
+##### Risk: Non-standardization of survey administration and data collection
 
   1) There is only one regulation concerning survey administration: Surveys are administered to the participant 
      directly, meaning no one can answer for youth, nor can data from other sources be used to answer survey 
@@ -231,10 +171,9 @@ ________________________________________________________________________________
        - Response rates varied dramatically by state; this may be a reflection of variance in data collection procedures
         
 ____________________________________________________________________________________________________________________
-____________________________________________________________________________________________________________________
 
 
-- Risk: Raw data/Initial dataset
+##### Risk: Raw data/Initial dataset
 
   1) Raw data already had imputed values for data that was missing from initial reporting:
      - Missing values for covariates were imputed using a recursive hot deck algorithm seeded with a sort list of state by sex. 
@@ -252,74 +191,18 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________
 
-#### -- Proposed Methods and Models --
+### -- Selecting the target variable for the analysis --
 
+![Many target variables]({{ site.url }}/images/capstone/many_outcomes.png)
 
-Outline
+The surveys administered to the foster youth to obtain outcomes data yielded many target variables. As can be seen above, I first attempted to group the data into four main outcome variables: well-being, health, educational, and financial outcomes. However, I still had to decide on one y-variable to focus the model on. I decided to conduct a PCA analysis and discovered that there was one main outcome that was explaining the majority of the variance in the data: Higher Education Certification. In other words, the PCA analysis over all the outcomes data (target variables) revealed that educational attainment was a proxy for all other outcomes. See diagrams below:
 
-- Hypothesis Testing between two populations and between changes within one population:
+![PCA Analysis 3D]({{ site.url }}/images/capstone/pca_3D.png)
 
-    - Hypothesis testing between baseline pop and cohort pops
-    - Hypothesis testing between 2014 cohort and 2011 cohort
-    - Hypothesis testing between outcomes of cohort_1, wave_1 and cohort_1, wave_2 (change in outcomes)
-    - Hypothesis testing between outcomes of cohorts, between received vs did not receive
-
-- Dimensionality Reduction and Models:
-
-    - PCA and Feature Importance in order to reduce dimensionality
-    - Preprocessing if needed for chosen modeling techniques
-    - Build 3 classifiers, cross-validate on 2011 data; x = services_2011, y = outcomes_2013:
-        - kNN neighbors
-        - random forests (gradient boost?)
-        - logistic regression
- 
-- Model Evaluation and Predictions:
-
-    - Compare performance scores/metrics
-    - Pick best model (or try all....if time permits)
-    - Predict outcomes_2015 based on services_2011 (wave 3 of cohort 1)
-    - Predict outcomes_2016 based on services_2014 (wave 2 of cohort 2)
-
-- Next steps:
-
-    - Get 2015 data
-    - Evaluate performance of model predictions for outcomes_2015 on 2015 data
-
-
+![PCA Analysis 2D]({{ site.url }}/images/capstone/pca_2D.png)
 
 _________________________________________________________________________________________________
 
 #### -- EDA Summary --
 
-Currently making some super cool plots using Tableau! Until I have those ready, here are a few bar graphs that show distributions of some of the variables in the analysis:
-
-COHORT 1:
-
-Distribution of Youth by State, Wave 1:
-![Dist by State]({{ site.url }}/images/capstone/w1_dist_state.png)
-
-Distribution of Youth by State, Wave 2:
-![Dist by State]({{ site.url }}/images/capstone/w2_dist_state.png)
-
-Connection to adult, Wave 1:
-![Connection to Adult W1]({{ site.url }}/images/capstone/w1_cnct_adult.png)
-
-Connection to adult, Wave 2:
-![Connection to Adult W2]({{ site.url }}/images/capstone/w2_cnct_adult.png)
-
-Highest Education Certification, Wave 1:
-![Education Certification]({{ site.url }}/images/capstone/w1_highest_ed.png)
-
-Highest Education Certification, Wave 2:
-![Education Certification]({{ site.url }}/images/capstone/w2_highest_ed.png)
-
-COHORT 2:
-
-Distribution of Youth by State, Wave 1:
-![Dist by State]({{ site.url }}/images/capstone/c2_dist_state.png)
-
-Connection to adult, Wave 1:
-![Connection to Adult W1]({{ site.url }}/images/capstone/c2_cnct_adult.png)
-
-Highest Education Certification, Wave 1:
-![Education Certification]({{ site.url }}/images/capstone/c2_highest_ed.png)
+Soon to come: Selecting features, building the model, and recommendations.
