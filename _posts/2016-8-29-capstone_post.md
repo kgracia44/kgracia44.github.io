@@ -5,7 +5,7 @@ title: Capstone Project -- Factors That Impact Educational Attainment Among Fost
 
 EDA Highlights and Project Summary
 
-Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly. I will start off with some context, then an overview of my approach, and conclude with some insightful take-aways for the problem I chose to explore. 
+Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly (Summer 2016 Cohort). I will start off with some context, then an overview of my approach, and conclude with some insightful take-aways for the problem I chose to explore. 
 
 Here we go!
 
@@ -74,6 +74,13 @@ ________________________________________________________________________________
 #### Raw Data Source and other references:
 
 ![Data Source and References]({{ site.url }}/images/capstone/sources.png)
+
+Other Sources:
+http://www.acf.hhs.gov/cb/resource/cfcip-etv
+http://thenationshealth.aphapublications.org/content/46/6/1.3.full
+https://www.ssa.gov/OP_Home/ssact/title04/0477.htm
+http://www.casey.org/
+
 
 ##### Population analyzed
 
