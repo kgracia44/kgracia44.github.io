@@ -76,7 +76,8 @@ ________________________________________________________________________________
 ![Data Source and References]({{ site.url }}/images/capstone/sources.png)
 
 Other Sources:
-http://www.acf.hhs.gov/cb/resource/cfcip-etv
+
+<a>http://www.acf.hhs.gov/cb/resource/cfcip-etv</a>
 http://thenationshealth.aphapublications.org/content/46/6/1.3.full
 https://www.ssa.gov/OP_Home/ssact/title04/0477.htm
 http://www.casey.org/
