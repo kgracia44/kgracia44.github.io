@@ -80,7 +80,7 @@ Other Sources:
 
   - <a href= "http://www.acf.hhs.gov/cb/resource/cfcip-etv">Text of the Social Security Act regarding the Chafee Foster Care Independence (CFCIP) and Education and Training Vouchers (ETV) Programs</a>
 
-  - <a href= "https://www.ssa.gov/OP_Home/ssact/title04/0477.htm>CFCIP: Compilation Of The Social Security Laws</a>
+  - <a href= "https://www.ssa.gov/OP_Home/ssact/title04/0477.htm">CFCIP: Compilation Of The Social Security Laws</a>
 
   - <a href= "http://thenationshealth.aphapublications.org/content/46/6/1.3.full">Article from APHA: Education attainment linked to health throughout lifespan...</a>
 
