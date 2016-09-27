@@ -3,9 +3,9 @@ layout: post
 title: Capstone Project -- Factors That Impact Educational Attainment Among Foster Youth 
 ---
 
-EDA Highlights and Project Summary
+Hello there! 
 
-Hello there! Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly (Summer 2016 Cohort). I will start off with some context, then an overview of my approach, and conclude with some insightful take-aways for the problem I chose to explore. 
+Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly (Summer 2016 Cohort). I will start off with some context, then an overview of my methods and findings, and conclude with some insightful take-aways for the problem I chose to explore. 
 
 Here we go!
 
@@ -47,26 +47,14 @@ Build and develop a predictive model in order to:
   3) Recommend which services to focus funds on
 
 
-#### -- Problem statement --
+#### -- Problem Statement --
 
 Which services geared towards foster youth aging out of the system lead to positive educational outcomes?
 
 _________________________________________________________________________________________________
 
 
-### -- Approach --
-
-  1) Select Target Variable
-
-  2) Select Features
-  
-  3) Build Models
-  
-  4) Recommendations
-  
-  5) Next Steps
-
-_________________________________________________________________________________________________
+Before I discuss my approach to explore the problem statement, I will describe the dataset used in this analysis. The information in this section will help to inform some of the rationale for my approach.
 
 
 ### -- Data Used in the Analysis --
@@ -87,119 +75,37 @@ Other Sources:
   - <a href= "http://www.casey.org/us-fact-sheet/">Foster Care Fact Sheet</a>
 
 
-##### Population analyzed
+#### -- Population analyzed --
 
 The diagram below, obtained from the NYTD Outcome User Guide that was provided with the dataset, depicts the population that was included in my analysis. The green semi-circle represents all the foster care children in the system nationwide. The blue circle represents the foster youth who are about to age out of the system without a permanent home, which is about 10% of the foster care population. These 10% also represent the baseline population for CFCIP. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the baseline population) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
 
-![Cohort 1 Wave Distribution]({{ site.url }}/images/capstone/cohort_1_popDiagram.png)
-
+<iframe src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yt0yrOkQrCKpW">via GIPHY</a></p>
 
 #### -- Risks and Assumptions --
+![Population Diagram]({{ site.url }}/images/capstone/cohort_1_popDiagram.png)
 
-##### Risk: Data incomplete
-    
-  1) Issue: Full complement of baseline data will not be complete until after May 15 of "A" pd for next FY
+#### -- Data Dictionary
+_________________________________________________________________________________________________
+
+### -- Methodology --
+
+  1) Exploratory Data Analysis (EDA)
+
+  2) Select Target Variable
+
+  3) Select Features
   
-  2) Issue: For follow-up surveys (Waves 2+): responses collected anytime in 6 mo. period
+  4) Build Models
   
-  3) Issue: States are encouraged, but not required, to collect data early in period to avoid performing survey in 1 
-     period and reporting results in next pd.
-       
-       
-  - Assumptions:
-    
-      - Survey collected and reporting in same reporting period
-      - Data is complete for each reporting period
-      - Need to see if there is a way to check this using RepDates_services and RepDates_outcomes and OutcmDte
-      - Either way, will need to make decision as to which date to use: date collected or date reported  
+  5) Next Steps
+  
+  6) Recommendations
 
-____________________________________________________________________________________________________________________
+_________________________________________________________________________________________________
 
-##### Risk: Data not representative of baseline population; N vs n
+#### -- EDA Summary --
 
-  1) Data sets exclude data from the following states:
-        
-     a) Connecticutt (due to Confidentiality Restrictions; excluded from raw dataset by National Data Archive on Child Abuse and Neglect (NDACAN))
-
-     b) NY and Puerto Rico did not participate in wave 2 of cohort 1 dataset, so data for participants from those states are missing (Could be one reason why overall response rate for cohort 1, wave 2 was so low (averaged 27%))
-
-     c) "HI", "IN", "KY", "MS", "OR", "TX", "TN" (I had to drop data from the following states because the unique ID column--the one I need for tracking participants from baseline to waves--for data from those states were corrupted. Could not use in my dataset and there is no way to impute or fix on my end).
-    
-  2) Self-selection bias:
-       
-     a) For baseline population data and services data: no sampling done; data collected for all population
-     
-     b) N = population consists of ALL youth in foster care at age 17 = baseline population
-     
-     c) Participation in survey is completely voluntary; no incentive to participate
-     
-     d) If respondents are significantly different from non-respondents (due to combination of response rate variation across states and survey design constraints), survey results are potentially biased and not representative of non respondents and overall, not adequately representative of outcomes of foster care youth population of 17 and 19 year old for whom survey is intended to assess.
-     
-     e) Cohorts population = n  
-        
-     - Cohort 1, Wave 1: 
-         - Self-selected, non-probabilistic sample of youth in baseline
-         - Self-selection because youth are not randomly selected
-
-     - Cohort 1 and Cohort 2, Wave 2+:
-         - Optional probabilistic sampling; choice is left up to state
-         - If sampling method chosen, only done once (so wave 2 sampled pop. = wave 3 sampled pop.). Sample
-           size calculation is standard (using Finite Population Correction; plus 30% of pop. size for 
-           attrition). Sample size based on Baseline population.
-
-     - In FY 2011 (cohort 1, wave 2 and 3): 12 states opted for sampling.
-         - Only these 12 states employed sampling methods that address selection bias, and only for wave 2 
-           participants
-
-     - No states had more than 5,000 youth in their cohorts
-
-         
-         
-   - Assumptions: 
-
-       - The Children’s Bureau employed a weighting methodology with the NYTD survey responses to identify and
-         correct potential non-response bias. 
-       - Assuming that the weighting methodology was appropriate and effectiveo, then assuming no selection bias and 
-         that cohorts are representative.
-          
-____________________________________________________________________________________________________________________
-
-##### Risk: Non-standardization of survey administration and data collection
-
-  1) There is only one regulation concerning survey administration: Surveys are administered to the participant 
-     directly, meaning no one can answer for youth, nor can data from other sources be used to answer survey 
-     questions.
-        
-     - However, nothing in place to enforce or ensure proper survey administration
-    
-  2) Surveys can be administered in person, via internet, via phone
-    
-  3) Data collection procedures are not standardized across states or local entities       
-       
-       
-   - Assumptions: 
-   
-       - Responses are from foster youth participant and no one else
-       - Response rates varied dramatically by state; this may be a reflection of variance in data collection procedures
-        
-____________________________________________________________________________________________________________________
-
-
-##### Risk: Raw data/Initial dataset
-
-  1) Raw data already had imputed values for data that was missing from initial reporting:
-     - Missing values for covariates were imputed using a recursive hot deck algorithm seeded with a sort list of state by sex. 
-    
-  2) For services data (dataset A) only: County FIPS code with fewer than 1,000 records are recoded to 8 (LcLFIPSSv)
-    
-    
-   - Assumptions: 
-   
-       - Assuming data imputation done correctly and based on valid methodology. 
-       - Excluding LcLFIPSSv from analysis because I do not have codebook for values for this feature
-           - Perhaps can use in future
-
-
+Soon to come: Selecting features, building the model, and recommendations.
 
 _________________________________________________________________________________________________
 
@@ -215,6 +121,6 @@ The surveys administered to the foster youth to obtain outcomes data yielded man
 
 _________________________________________________________________________________________________
 
-#### -- EDA Summary --
+#### -- Selecting Features --
 
 Soon to come: Selecting features, building the model, and recommendations.
