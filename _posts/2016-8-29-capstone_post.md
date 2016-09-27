@@ -75,14 +75,22 @@ Other Sources:
   - <a href= "http://www.casey.org/us-fact-sheet/">Foster Care Fact Sheet</a>
 
 
-#### -- Population analyzed --
+#### -- Sample Population Analyzed --
 
-The diagram below, obtained from the NYTD Outcome User Guide that was provided with the dataset, depicts the population that was included in my analysis. The green semi-circle represents all the foster care children in the system nationwide. The blue circle represents the foster youth who are about to age out of the system without a permanent home, which is about 10% of the foster care population. These 10% also represent the baseline population for CFCIP. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the baseline population) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
+The diagram and tables below describe the population that was included in my analysis. The target population for this study--foster youth at risk of aging out of the system without a permanent home--is about 10% of the total U.S. Foster Care Population each year. 
 
-<iframe src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yt0yrOkQrCKpW">via GIPHY</a></p>
+This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the sampling frame) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
+
+<c><iframe src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yt0yrOkQrCKpW">via GIPHY</a></p></c>
+
+![Population Diagram]({{ site.url }}/images/capstone/c1_pop_table.png)
+
+
+![Population Diagram]({{ site.url }}/images/capstone/c2_pop_table.png)
+
+#### -- Sampling Terminology Sources
 
 #### -- Risks and Assumptions --
-![Population Diagram]({{ site.url }}/images/capstone/cohort_1_popDiagram.png)
 
 #### -- Data Dictionary
 _________________________________________________________________________________________________
