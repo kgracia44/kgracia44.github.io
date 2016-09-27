@@ -54,7 +54,7 @@ Which services geared towards foster youth aging out of the system lead to posit
 _________________________________________________________________________________________________
 
 
-Before I discuss my approach to explore the problem statement, I will describe the dataset used in this analysis. The information in this section will help to inform some of the rationale for my approach.
+Before I discuss my approach to explore the problem statement, I will describe the dataset used in this analysis. 
 
 
 ### -- Data Used in the Analysis --
@@ -81,7 +81,7 @@ The diagram and tables below describe the population that was included in my ana
 
 This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the sampling frame) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
 
-<c><iframe src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yt0yrOkQrCKpW">via GIPHY</a></p></c>
+<iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
 
 ![Population Diagram]({{ site.url }}/images/capstone/c1_pop_table.png)
 
