@@ -100,11 +100,9 @@ For detailed explanations of population terms (e.g., target population, sampling
 
 ![Population Table: Cohort 1]({{ site.url }}/images/capstone/c1_pop_table.png)
 
-<br/>
 
 ![Population Table: Cohort 2]({{ site.url }}/images/capstone/c2_pop_table.png)
 
-<br/>
 <br/>
 <br/>
 
@@ -112,7 +110,6 @@ For detailed explanations of population terms (e.g., target population, sampling
 
 For a detailed summary of the risks and assumptions of the data as well as a copy of the data dictionary for the dataset, check out my jupyter notebooks in my github repo: <a href= "https://github.com/kgracia44/DSI-projects/tree/master/Projects_Weekly/Capstone_Project/1_Data">Capstone Github Repository: Data</a>
 
-<br/>
 <br/>
 <br/>
 
