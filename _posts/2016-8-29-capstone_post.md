@@ -79,7 +79,11 @@ Other Sources:
 
 The diagram and tables below describe the population that was included in my analysis. The target population for this study--foster youth at risk of aging out of the system without a permanent home--is about 10% of the total U.S. Foster Care Population each year. 
 
-This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the sampling frame) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
+This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The sampling frame comprises the baseline pop and sample...
+
+The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the sampling frame) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
+
+For this study, I will be building a predictive model based on sample from Cohort 1 (2011) and later, when data becomes available, I will test model on sample from Cohort 2....
 
 <iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
 
