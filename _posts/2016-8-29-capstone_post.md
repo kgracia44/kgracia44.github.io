@@ -77,7 +77,7 @@ Other Sources:
 
 #### -- Sample Population Analyzed --
 
->>> <iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+> <iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
 
 The diagram above illustrates the population that was included in my analysis (i.e. the sample). The tables below describe the populations in more detail.
 
@@ -96,6 +96,8 @@ For detailed explanations of population terms (e.g., target population, sampling
 - <a href= "http://www.statisticshowto.com/sampling-frame/">http://www.statisticshowto.com/sampling-frame/</a>
 
 
+
+
 ![Population Table: Cohort 1]({{ site.url }}/images/capstone/c1_pop_table.png)
 
 
@@ -103,9 +105,11 @@ For detailed explanations of population terms (e.g., target population, sampling
 
 
 
+
 #### -- Data Dictionary, Risks and Assumptions --
 
 For a detailed summary of the risks and assumptions of the data as well as a copy of the data dictionary for the dataset, check out my jupyter notebooks in my github repo: <a href= "https://github.com/kgracia44/DSI-projects/tree/master/Projects_Weekly/Capstone_Project/1_Data">Capstone Github Repository: Data</a>
+
 
 
 _________________________________________________________________________________________________
