@@ -124,16 +124,20 @@ ________________________________________________________________________________
   3) Select Features
   
   4) Build Models
+
+  5) Select Model
   
-  5) Next Steps
+  6) Next Steps
   
-  6) Recommendations
+  7) Recommendations
 
 _________________________________________________________________________________________________
 
 #### -- EDA Summary --
 
 Soon to come: Selecting features, building the model, and recommendations.
+
+
 
 _________________________________________________________________________________________________
 
