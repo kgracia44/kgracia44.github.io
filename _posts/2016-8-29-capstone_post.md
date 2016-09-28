@@ -5,7 +5,7 @@ title: Capstone Project -- Factors That Impact Educational Attainment Among Fost
 
 Hello there! 
 
-Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly (Summer 2016 Cohort). I will start off with some context, then an overview of my methods and findings, and conclude with some insightful take-aways for the problem I chose to explore. 
+Regardless of whether it was intentional or by chance, I'm very excited that you have come across my blog post for my Capstone Project! In this post, I will describe my final project for the Data Science Immersive program at General Assembly (Summer 2016 Cohort). I will start off with some context, then an overview of my methods and findings, and conclude with some insightful take-aways for the problem I chose to explore. If you want to check out the step-by-step process of the project methodology as well as detailed information over the code and data that was used, head over to my github repository for this Capstone Project: <a href= "https://github.com/kgracia44/DSI-projects/tree/master/Projects_Weekly/Capstone_Project">Capstone Github Repo</a>
 
 Here we go!
 
@@ -77,26 +77,35 @@ Other Sources:
 
 #### -- Sample Population Analyzed --
 
-The diagram and tables below describe the population that was included in my analysis. The target population for this study--foster youth at risk of aging out of the system without a permanent home--is about 10% of the total U.S. Foster Care Population each year. 
+>>> <iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
 
-This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The sampling frame comprises the baseline pop and sample...
+The diagram above illustrates the population that was included in my analysis (i.e. the sample). The tables below describe these population in more detail.
 
-The CFCIP policy requires that a subset of the foster youth population receiving services (i.e. the sampling frame) participates in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. This project analyzed outcomes data for those youth who participated in all three surveys, which is about 5% of the baseline population, as denoted by the purple circle.
+The target population for this study--foster youth at risk of aging out of the system without a permanent home--is about 10% of the total U.S. Foster Care Population each year. 
 
-For this study, I will be building a predictive model based on sample from Cohort 1 (2011) and later, when data becomes available, I will test model on sample from Cohort 2....
+This sub-popultaion of foster youth are eligible to receive services funded by the Chafee Foster Care Independence Program (CFCIP) mentioned above. The sampling frame, which is also the baseline population in this study, is composed of the foster youth who are eligible to receive services and age 17. 
 
-<iframe align= "center" src="//giphy.com/embed/yt0yrOkQrCKpW" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+The CFCIP policy requires that a sample of these foster youth participate in an outcomes survey at age 17, and two follow-up surveys at age 19 and 21. For this project, I will be analyzing outcomes data for those youth who participated in the two follow-up surveys in order to build a predictive model. Later in this blog post, I will discuss the insights gleaned throughout the process of building the model. I will be building a predictive model based on the Cohort 1 sample--foster youth in the sampling frame for FY 2011. I will evaluate the model's performance on outcomes data for the Cohort 2 sample (youth who received services in FY 2014)--when the data is available, which should be in 2017.  
 
-![Population Diagram]({{ site.url }}/images/capstone/c1_pop_table.png)
+For detailed explanations of population terms (e.g., target population, sampling frame, etc.), check out these websites:
+
+- <a href= "http://www.theanalysisfactor.com/target-population-sampling-frame/"></a>
+
+- <a href= "http://www.socialresearchmethods.net/kb/sampterm.php"></a>
+
+- <a href= "http://www.statisticshowto.com/sampling-frame/"></a>
 
 
-![Population Diagram]({{ site.url }}/images/capstone/c2_pop_table.png)
+![Population Table: Cohort 1]({{ site.url }}/images/capstone/c1_pop_table.png)
 
-#### -- Sampling Terminology Sources
 
-#### -- Risks and Assumptions --
+![Population Table: Cohort 2]({{ site.url }}/images/capstone/c2_pop_table.png)
 
-#### -- Data Dictionary
+
+#### -- Data Dictionary, Risks and Assumptions --
+
+For a detailed summary of the risks and assumptions of the data as well as a copy of the data dictionary for the dataset, check out my jupyter notebooks in my github repo: <a href= "https://github.com/kgracia44/DSI-projects/tree/master/Projects_Weekly/Capstone_Project/1_Data">Capstone Github Repository: Data</a>
+
 _________________________________________________________________________________________________
 
 ### -- Methodology --
