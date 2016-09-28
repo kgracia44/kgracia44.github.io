@@ -96,10 +96,14 @@ For detailed explanations of population terms (e.g., target population, sampling
 - <a href= "http://www.statisticshowto.com/sampling-frame/">http://www.statisticshowto.com/sampling-frame/</a>
 <br/>
 <br/>
+<br/>
+
 ![Population Table: Cohort 1]({{ site.url }}/images/capstone/c1_pop_table.png)
 
+<br/>
 
 ![Population Table: Cohort 2]({{ site.url }}/images/capstone/c2_pop_table.png)
+
 <br/>
 <br/>
 <br/>
