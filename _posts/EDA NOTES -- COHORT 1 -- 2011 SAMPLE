@@ -1,0 +1,191 @@
+EDA NOTES -- COHORT 1 -- 2011 SAMPLE
+
+                -- UNIVARIATE ANALYSIS -- DISTRIBUTIONS --
+
+Top 5 states:
+CA  1429  California
+IA  463 Iowa
+GA  363 Georgia
+LA  342 Louisiana
+FL  313
+
+----
+
+Gender = pretty much equal porportion
+
+----
+
+Top 3 Races:
+White 53%
+Black 30.7 %
+Uknown 7.6%
+
+----
+
+Top 3 Ethnicities:
+NH White 44.2$
+NH Black 29.8%
+Hispanic 17.3%
+
+----
+
+Top 3 Education
+10th Grade 32.6%
+11th Grade 26.4%
+9th Grade 20.1%
+
+---
+
+Not Delinq 77.6%
+Yes Delinq 18.5%
+
+---
+
+Not Tribe 93%
+Yes Tribe 3.2%
+
+---
+
+No SpecEd 70.6%
+Yes SpEd 25.2%
+
+---
+
+Summary of Distributions of Demographics:
+
+- California population in sample is an outlier; however, it is proportional to the baseline pop/sampling frame for CA
+
+- Gender 49 v 51 ==> Basically equally dist
+
+- Education Level at Baseline:
+    - About 1/3 of the youth in the sample are in grades that are 3+ yrs away from graduating high school, and so are unlikely to be at a point where they can enroll in higher education (a target) when first outcomes follow-up survey is administered (2 yrs from baseline year). However, there are exceptions and enrollment in vocational training/trade schools is still possible in 2 yrs.
+
+- About 1/5 of the youth in the sample have been labeled as delinquints
+
+- 93% of the sample are not in a Tribe. Unless bivariate analysis shows any interesting correlation with this variable, may be able to drop this variable.
+
+- About 1/4 of the youth in sample have received Special Education Services
+
+-----------------------------------
+
+SERVS DIST
+----
+
+- Only 1/5 of foster youth in sample received Post-Secondary Support Service, Mentoring Service, and Other Finance Service
+- Only 1/4 of foster youth in sample received Employee Training Service
+- 40% received Budget service, Housing Education Service, Health Education Service
+- 30 % received Family Support service
+- About 90% of the sample did not receive Supervised Indp Living Service, or Room and Board FinAid Service and 84% did not receive Education Finance Service. Unless bivariate analysis shows any interesting correlation with these variables, may be able to drop them.
+- All other services (Indp Needs Assessment Service, Academic Support Service, Career Service, : about evenly distributed yes/no.
+- Distribution of number of services received in sample is overall normally distributed (Shifted to mean = 1). The majority of youth in the sample received one service (21.2%), with a small, but notable spike at 13 services received.
+- About 4% of youth in the sample received no services at all.
+
+-----------------------------------
+
+OUTCOMES (TARGETS) DIST
+----
+
+- Majority of youth in sample are NOT receiving:
+    - Public Food Assistance
+    - Public House Assistance
+    - Public Financial Assistance
+    - Other Financial Assistance
+    - Other Health Insurance
+    
+- Majority of youth in sample are NOT:
+    - Employed full-time
+    - Employed part-time 
+        - Of those youth who are employed, 2/3 are employed part-time
+
+- Majority of youth in sample DO:
+    - Have MDCD insurance
+    - Have a connection to an adult
+
+- Higher Education Certification:
+    - Majority of youth in sample have a HighSchool Diploma or a GED
+    - 1.3% of youth have some form of higher education
+- Currently enrolled in higher education:
+    - Of those youth who responded to this question:
+      - 55% of youth were currently enrolled in a higher education program
+
+- Of the youth who responded to question of whether or not they had gained Employee Skills: 2/3 responded NO, 1/3 yes
+
+- Of the youth who responded:
+    - 20% experienced homelessness
+    - 14% were substance abusers at one point
+    - 20% experienced incarceration
+
+- Might want to drop the following variables since they were not applicable to a majority of youth in sample:
+    - Mental Health Insurance
+    - Medical Insurance
+
+----------------------------
+
+
+                -- BIVARIATE ANALYSIS -- RELATIONSHIPS BETWEEN VARS --
+
+-----
+
+Demographics by Features
+--
+
+- Service distributions that varied significantly by STATE:
+    - all blank responses (77's) seem to be from NY
+    - ILNAsv 
+    - AcSuppSv
+    - CareerSv
+    - EmplyTrSv
+    - BudgetSv
+    - HouseEdSv
+    - HlthEdSv
+    - FamSuppSv
+    - OthrFinaSv
+
+- Majority of STATES did not provide much of the following services:
+    - Iowa was usually the outlier (opposite; provided more of this service)
+    - PSEdSuppSv
+    - MentorSv
+    - SILsv
+    - RmBrdFAsv
+    - EducFinaSv
+
+        ----
+
+- Delinquincy Status:
+    - Overall, there were no significant differences in whether or not a youth would receive a service based on their delinquincy status.
+    -Slight outliers: HlthEdSv, FamSuppSv
+        - A delinquint was more likely than a non-delinquint to receive these services
+
+- All other services: No significant variations
+    - (Sex, Race, TribeSv, EdLvlSv, *SpecEdSv, RaceEthn)
+
+- ==> It was blank (77) for service received
+        For blank (or 77) for the following demos: 
+          - Delinqt
+          - TribeSv
+          - EdLvlSv
+          
+  
+- *Slight outliers: AcSuppSv, CareerSv, HealthEdSv, HouseEdSv, BudgetSv
+        - A SpecEd Receiver was more likely than a non-SpecEd to receive these services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
