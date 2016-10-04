@@ -170,7 +170,45 @@ Demographics by Features
         - A SpecEd Receiver was more likely than a non-SpecEd to receive these services
 
 
+- Number of services by state are normally distributed.
+    - Overall for states: Average # of services per youth: 2
+    - Outliers: 
+        - California had disproportionately higher frequency of administering two services per youth
+        - Iowa had disproportionately higher frequency of administering 13 services per youth
+        - These states were the only states that had instances of 0 services administered per youth:
+            - MD, ME, NY, VT (technically NY is excluded from this analysis)
 
+- Number of services by delinquent status:
+    - All 77's had 0 services
+    - Only variation for foster youth who were labeled as delinquents:
+        - More likely to have received 2 services (over other amounts of services)
+        - Other than that, these youth were ~ equally likely to receive other #'s of services
+    - For foster youth who were not labeled as delinquents:
+        - normal distribution of number of services received (only outlier: 2 services received)
+        - youth who are not delinquents are more likely to receive higher number of services vs those who are labeled as delinquents
+
+- Number of services by gender: no difference in varaitons/normally dist.
+
+- " " " by race: nothing to note
+- Number of services by RaceEthn: nothing to note
+
+
+- Number of services by tribe status:
+    - All 77's had 0 services
+    - Only variation for foster youth who were labeled as tribe youth:
+        - More likely to have received 2 services (over other amounts of services), but ONLY SLIGHTLY more likely.....very slight
+        - Other than that, these youth were ~ equally likely to receive other #'s of services
+    - For foster youth who were not labeled as tribe youth:
+        - normal distribution of number of services received (only outlier: 2 services received)
+        - youth who are not in tribe youth are more likely to receive higher number of services vs those who are labeled as delinquents
+
+- Number of services by education level:
+    - for all youth who received 0 services: they were either in 9, 10, or 11th grade. and blanks.
+    - overall, normal distribution for all grade levels. Outliers: #2 services
+
+- Number of services by SpecialEd status:
+    - 77's (blanks) are distributed: Can find in several #s of services (not just 0 services received)
+    - Normal distributions within subgroups of yes-SpecEd and no-SpecEd with the outliers at 2 # of services received
 
 
 

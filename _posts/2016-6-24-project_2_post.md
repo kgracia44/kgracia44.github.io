@@ -22,7 +22,6 @@ STEP 2: Cleaning up the data...
 
 ![Data Cleaning Tasks]({{ site.url }}/images/data_clean_tasks.png)
 
-
 ________________
 STEP 3: Visualizing the data...
 
