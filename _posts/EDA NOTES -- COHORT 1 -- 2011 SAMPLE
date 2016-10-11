@@ -211,18 +211,75 @@ Demographics by Features
     - Normal distributions within subgroups of yes-SpecEd and no-SpecEd with the outliers at 2 # of services received
 
 
+-----
+
+Demographics by Targets
+--
+
+- Outcomes with distributions that varied significantly by STATE:
+    - PubFoodAs: California majority of youth were N/A bcuz still in Foster Care....look into (other states too, but smaller pop.)
+    - PubHousAs: California majority of youth were N/A bcuz still in Foster Care....look into (other states too, but smaller pop.)
+    - OthrFinAs: Mostly No's and Blanks
+    - HighEdCert: Majority of youth in every state were either None, HS Diploma, or GED. Some states, that there were no youth other than the most frequent three.
+    - CurrFTE: Mostly No's and Blanks
+    - CurrPTE: Mostly No's and Blanks, but more PTE youth than FTE youth
+    - PubFinAs: California majority of youth were N/A bcuz still in Foster Care....look into (other states too, but smaller pop.)
+    - CurrenRoll
+    - PrescripIn: Mostly No's and Blanks; California majority of youth were N/A
+    - Homeless: Mostly No's and Blanks
+    - SubAbuse: Mostly No's and Blanks
+    - Incarc: Mostly No's and Blanks
+    - MDCD: Mostly YES's and Blanks
+    - CnctAdult: Mostly YES's and Blanks
+    - EmplySklls
+    - OthrHlthIn: Mostly No's and Blanks
+    - MedicalIn: Mostly No's and Blanks; California majority of youth were N/A
+    - MentlHlthIn: Mostly No's and Blanks; California majority of youth were N/A
+
+        ----
+
+- Delinquincy Status:
+    - Outcomes with distributions that varied by delinquent status:
+        - HighEdCert: Delinq more likely than non to have GED. Non more likely than delinq to have HS Diploma.
+        - CurrenRoll: Non delinq more likely than Delinq to be currently enrolled.
+        - Homeless: Slight variation
+        - SubAbuse: Slight variation
+        - Incarc: Slight variation
+
+    - Outcomes with distributions that DID NOT vary by delinquent status:
+        - PubFoodAs, PubHouseAs, OthrFinAs (*No vs Blank switch), CurrFTE (*No vs Blank switch), CurrPTE (*No vs Blank switch), PubFinAs, PrescripIN (*No vs Blank switch), MDCD, CnctAdult (*No vs Blank switch), EmplySklls (*No vs Blank switch), OthrHlthIn (*No vs Blank switch), MedicalIn (*No vs Blank switch), MntlHlthIn (*No vs Blank switch)
 
 
+----
 
+- Sex:
+    - Outcomes with distributions that varied by gender:
+        - HighEdCert: Females more likely to ave HS Diploma than GED; males more likely to have GED
+        - CurrenRoll: Females have higher likelihood to be enrolled
 
+    - Outcomes with distributions that DID NOT vary by gender:
+        - All others
 
+----
 
+- Race:
+    - Outcomes with distributions that varied by race:
+        - PubFoodAs
+        - HighEdCert
+        - CurrenRoll
+        - EmplySklls
 
+    - Outcomes with distributions that DID NOT vary by race:
+        - All others
 
+----
 
+- TribeSv:
+    - Outcomes with distributions that varied by tribe status:
+        - PubFoodAs
 
-
-
+    - Outcomes with distributions that DID NOT vary by tribe status:
+        - All others
 
 
 
