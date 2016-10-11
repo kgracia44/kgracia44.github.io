@@ -1,6 +1,7 @@
 EDA NOTES -- COHORT 1 -- 2011 SAMPLE
 
                 -- UNIVARIATE ANALYSIS -- DISTRIBUTIONS --
+DEMOGRAPHICS:
 
 Top 5 states:
 CA  1429  California
@@ -66,6 +67,9 @@ Summary of Distributions of Demographics:
 
 - About 1/4 of the youth in sample have received Special Education Services
 
+- RELATIONSHIPS WITHIN DEMOS:
+    - RaceEthn and Race
+
 -----------------------------------
 
 SERVS DIST
@@ -79,6 +83,7 @@ SERVS DIST
 - All other services (Indp Needs Assessment Service, Academic Support Service, Career Service, : about evenly distributed yes/no.
 - Distribution of number of services received in sample is overall normally distributed (Shifted to mean = 1). The majority of youth in the sample received one service (21.2%), with a small, but notable spike at 13 services received.
 - About 4% of youth in the sample received no services at all.
+
 
 -----------------------------------
 
@@ -277,9 +282,250 @@ Demographics by Targets
 - TribeSv:
     - Outcomes with distributions that varied by tribe status:
         - PubFoodAs
+        - HighEdCert
+        - CurrenRoll
+        ~ EmplySklls
 
     - Outcomes with distributions that DID NOT vary by tribe status:
         - All others
+
+****
+
+- EdLevlSv:
+    - Outcomes with distributions that varied by EdLevl status:
+        ~ PubFoodAs
+        - HighEdCert
+        ~ CurrenRoll
+        ~ PrescripIn
+        ~ Homeless
+        ~ Subabuse
+        ~ EmplySklls
+
+    - Outcomes with distributions that DID NOT vary by EdLevl status:
+        - All others
+
+****
+
+- SpecEdSv:
+    - Outcomes with distributions that varied by SpecEdSv status:
+        ~ HighEdCert
+        ~ CurrenRoll
+        - EmplySklls
+
+    - Outcomes with distributions that DID NOT vary by SpecEdSv status:
+        - All others
+
+****
+
+- RaceEthn:
+    - Outcomes with distributions that varied by RaceEthn status:
+        - PubFoodAs
+        - PubHouseAs
+        - HighEdCert
+        - CurrenRoll
+
+    - Outcomes with distributions that DID NOT vary by RaceEthn status:
+        - All others
+
+-----
+
+Features by Targets
+--
+
+****
+
+ILNAsv
+- For those youth who received ILNAsv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - CurrenRoll
+
+- For those youth who received ILNAsv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+AcSuppSv
+- For those youth who received AcSuppSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - HighEdCert
+        - CurrenRoll
+        ~ EmplySklls
+
+- For those youth who received AcSuppSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+PSEdSuppSv
+- For those youth who received PSEdSuppSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - HighEdCert
+        - CurrenRoll
+
+- For those youth who received PSEdSuppSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+CareerSv
+- For those youth who received CareerSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ CurrenRoll
+
+- For those youth who received CareerSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+EmplyTrSv
+- For those youth who received EmplyTrSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ CurrPTE
+        ~ CurrenRoll
+        ~ EmplySklls
+
+- For those youth who received EmplyTrSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+BudgetSv
+- For those youth who received BudgetSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ PubFoodAs
+        ~ HighEdCert
+        ~ CurrPTE
+        ~ EmplySklls
+
+- For those youth who received BudgetSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+HousEdSv
+- For those youth who received HousEdSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - EmplySklls
+
+- For those youth who received HousEdSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+HlthEdSv
+- For those youth who received HlthEdSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - HighEdCert
+        ~ CurrPTE
+        ~ CurrenRoll
+
+- For those youth who received HlthEdSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+FamSuppSv
+- For those youth who received FamSuppSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - HighEdCert
+        - CurrenRoll
+
+- For those youth who received FamSuppSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+MentorSv
+- For those youth who received MentorSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ HighEdCert
+        ~ CurrenRoll
+        ~ EmplySklls
+
+- For those youth who received MentorSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+
+SILsv
+- For those youth who received SILsv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - PubFoodAs
+        - HighEdCert
+        ~ CurrenRoll
+
+
+- For those youth who received SILsv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+RmBrdFASv
+- For those youth who received RmBrdFASv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ HighEdCert
+        ~ CurrenRoll
+        ~ EmplySklls
+        
+
+- For those youth who received RmBrdFASv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+
+----
+
+EducFinaSv
+- For those youth who received EducFinaSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        ~ EmplySklls
+
+- For those youth who received EducFinaSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+----
+
+OthrFinaSv
+- For those youth who received OthrFinaSv service vs those that did not:
+    - The following outcome distributions varied significantly:
+        - HighEdCert
+        ~ CurrenRoll
+
+
+- For those youth who received OthrFinaSv service vs those that did not:
+    - The following outcome distributions DID NOT vary significantly:
+        - All others
+
+_____
+
+# NUMBER OF SERVICES BY OUTCOMES/TARGETS:
+
+    - The main takeaway from these graphs:
+        - May need to drop blanks/Declines/Etc.
+
+
+
 
 
 
