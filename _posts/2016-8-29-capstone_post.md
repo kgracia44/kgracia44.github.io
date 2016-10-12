@@ -142,7 +142,7 @@ ________________________________________________________________________________
   
   - California population in sample is an outlier; however, it is proportional to the baseline population (i.e., the sampling frame for California).
 
-      >Check out the interactive heat map of the foster youth sample here: 
+      **Check out the interactive heat map of the foster youth sample here: 
       <a href= "http://ec2-54-200-137-211.us-west-2.compute.amazonaws.com/geoStates/heatMap.html"> US Foster Youth Population (n) - Cohort 1 (2011) - Heat Map</a>
 
 ![Population Heat Map: Cohort 1]({{ site.url }}/images/capstone/heatMap.png)
@@ -190,13 +190,15 @@ ________________________________________________________________________________
 
 ![Population Distribution: Number of Services Received]({{ site.url }}/images/capstone/c1_num_servs.png)
 
-    - The majority of youth in the sample received one service (21.2%), with a small, but notable spike at 13 services received.
+    - The majority of youth in the sample received one service (21.2%), 
+    with a small, but notable spike at 13 services received.
 
     - About 4% of youth in the sample received no services at all.
+<br>
 
 ---
-
-  C) Outcomes:
+  <pre>
+  <b>C) Outcomes:</b></pre>
 
   - Majority of youth in sample are NOT receiving:
       
