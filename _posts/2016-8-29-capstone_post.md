@@ -194,9 +194,9 @@ ________________________________________________________________________________
     with a small, but notable spike at 13 services received.
 
     - About 4% of youth in the sample received no services at all.
-<br>
 
 ---
+
   <pre>
   <b>C) Outcomes:</b></pre>
 
