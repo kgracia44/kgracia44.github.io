@@ -223,10 +223,14 @@ ________________________________________________________________________________
       - Majority of youth in sample have a High School Diploma or a GED
       - 1.3% of youth have some form of higher education
   
+![Population Distribution: Higher Education Received]({{ site.url }}/images/capstone/c1_popHighEdCert.png)
+
   - Currently enrolled in higher education:
       
       - Of those youth who responded to this question:
         - 55% of youth were currently enrolled in a higher education program
+
+![Population Distribution: Currently Enrolled]({{ site.url }}/images/capstone/c1_popCurrenRoll.png)
 
   - Obtained employee skills:
 
@@ -247,9 +251,13 @@ ________________________________________________________________________________
 
 ----------------------------
 
-BIVARIATE ANALYSIS:
 
-  A) Demographics vs Features:
+##### BIVARIATE ANALYSIS::
+
+  <pre>
+  <b>A) Demographics vs Features:</b></pre>
+
+  
 
 _________________________________________________________________________________________________
 
