@@ -133,13 +133,18 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________
 
-### -- 1) EDA Highlights for Cohort 1 Sample--
+### 1) EDA Highlights for Cohort 1 Sample
 
 UNIVARIATE ANALYSIS:
 
   A) Demographics:
 
   - California population in sample is an outlier; however, it is proportional to the baseline population (i.e., the sampling frame for California).
+
+  Check out the interactive heat map of the foster youth sample here: 
+  <a href= "http://ec2-54-200-137-211.us-west-2.compute.amazonaws.com/geoStates/heatMap.html"> US Foster Youth Population (n) - Cohort 1 (2011) - Heat Map</a>
+
+![Population Heat Map: Cohort 1]({{ site.url }}/images/capstone/heatMap.png)
 
   - Equal distribution of females to males in foster youth sample.
 
@@ -228,10 +233,13 @@ UNIVARIATE ANALYSIS:
   - I plan to drop the following variables since they were not applicable to a majority of youth in the sample:
       
       - Mental Health Insurance
-      - Medical Insurance
+      - Medical Insurance0
 
 ----------------------------
 
+BIVARIATE ANALYSIS:
+
+  A) Demographics vs Features:
 
 _________________________________________________________________________________________________
 
