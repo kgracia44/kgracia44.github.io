@@ -140,11 +140,10 @@ ________________________________________________________________________________
   <pre>
   <b>A) Demographics:</b>
   </pre>
-
   - California population in sample is an outlier; however, it is proportional to the baseline population (i.e., the sampling frame for California).
 
-  Check out the interactive heat map of the foster youth sample here: 
-  <a href= "http://ec2-54-200-137-211.us-west-2.compute.amazonaws.com/geoStates/heatMap.html"> US Foster Youth Population (n) - Cohort 1 (2011) - Heat Map</a>
+      >>Check out the interactive heat map of the foster youth sample here: 
+      <a href= "http://ec2-54-200-137-211.us-west-2.compute.amazonaws.com/geoStates/heatMap.html"> US Foster Youth Population (n) - Cohort 1 (2011) - Heat Map</a>
 
 ![Population Heat Map: Cohort 1]({{ site.url }}/images/capstone/heatMap.png)
 
@@ -153,6 +152,8 @@ ________________________________________________________________________________
   - Education Level at Baseline:
       
       About 1/3 of the youth in the sample are in grades that are 3+ yrs away from graduating high school, and so are unlikely to have been at a point where they could enroll in higher education (a target variable) when the first outcomes follow-up survey was administered (2 yrs from baseline year). However, exceptionsare possible and enrollment in vocational training/trade schools is still possible in 2 yrs.
+
+<br>
 
 ![Population Pie Chart: Education Level Breakdown]({{ site.url }}/images/capstone/edLevl_pieChart.png)
 
@@ -166,7 +167,9 @@ ________________________________________________________________________________
 
 ---
 
-  B) Services:
+  <pre>
+  <b>B) Services:</b>
+  </pre>
 
   - Only 1/5 of foster youth in sample received the following services: Post-Secondary Support, Mentoring, and Other Financial Services.
   
