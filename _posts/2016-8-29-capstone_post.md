@@ -138,11 +138,11 @@ ________________________________________________________________________________
 ##### UNIVARIATE ANALYSIS:
 
   <pre>
-  <b>A) Demographics:</b>
-  </pre>
+  <b>A) Demographics:</b></pre>
+  
   - California population in sample is an outlier; however, it is proportional to the baseline population (i.e., the sampling frame for California).
 
-      >>Check out the interactive heat map of the foster youth sample here: 
+      >Check out the interactive heat map of the foster youth sample here: 
       <a href= "http://ec2-54-200-137-211.us-west-2.compute.amazonaws.com/geoStates/heatMap.html"> US Foster Youth Population (n) - Cohort 1 (2011) - Heat Map</a>
 
 ![Population Heat Map: Cohort 1]({{ site.url }}/images/capstone/heatMap.png)
@@ -168,8 +168,7 @@ ________________________________________________________________________________
 ---
 
   <pre>
-  <b>B) Services:</b>
-  </pre>
+  <b>B) Services:</b></pre>
 
   - Only 1/5 of foster youth in sample received the following services: Post-Secondary Support, Mentoring, and Other Financial Services.
   
