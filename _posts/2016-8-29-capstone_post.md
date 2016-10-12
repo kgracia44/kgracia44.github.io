@@ -133,10 +133,104 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________
 
-#### -- EDA Summary --
+### -- 1) EDA Highlights for Cohort 1 Sample--
 
-Soon to come: Selecting features, building the model, and recommendations.
+UNIVARIATE ANALYSIS:
 
+  A) Demographics:
+
+  - California population in sample is an outlier; however, it is proportional to the baseline population (i.e., the sampling frame for California).
+
+  - Equal distribution of females to males in foster youth sample.
+
+  - Education Level at Baseline:
+      
+      About 1/3 of the youth in the sample are in grades that are 3+ yrs away from graduating high school, and so are unlikely to have been at a point where they could enroll in higher education (a target variable) when the first outcomes follow-up survey was administered (2 yrs from baseline year). However, exceptionsare possible and enrollment in vocational training/trade schools is still possible in 2 yrs.
+
+  - About 1/5 of the youth in the sample have been labeled as delinquents
+
+  - 93% of the sample are not considered members of a tribe. Unless bivariate analysis shows any interesting correlation with this demographic attribute, I may be able to drop this variable from any further analysis and modeling.
+
+  - About 1/4 of the youth in sample have received Special Education Services.
+
+  - RaceEthn and Race are correlated.
+
+---
+
+  B) Services:
+
+  - Only 1/5 of foster youth in sample received the following services: Post-Secondary Support, Mentoring, and Other Financial Services.
+  
+  - Only 1/4 of foster youth in sample received Employee Training Services
+  
+  - About 40% of foster youth received the following services: Budget, Housing Education, and Health Education.
+  
+  - About 30% of foster youth received Family Support Services
+  
+  - Unless bivariate analysis shows any interesting correlation with the following variables, I may be able to drop them from any further analysis and modeling:
+
+    - About 90% of the sample did NOT receive the following services: Supervised Independent Living and Room and Board Financial Aid. 
+
+    - About 84% of the sample did NOT receive Education Finance Services. 
+
+  - The following services are about evenly distributed between yes and no responses: Independent Needs Assessment, Academic Support, and Career Services.
+  
+  - For this sample, distribution of number of services received is overall normally distributed:
+
+    - The majority of youth in the sample received one service (21.2%), with a small, but notable spike at 13 services received.
+
+    - About 4% of youth in the sample received no services at all.
+
+---
+
+  C) Outcomes:
+
+  - Majority of youth in sample are NOT receiving:
+      
+      - Public Food Assistance
+      - Public House Assistance
+      - Public Financial Assistance
+      - Other Financial Assistance
+      - Other Health Insurance
+      
+  - Majority of youth in sample are NOT:
+      
+      - Employed full-time or part-time
+          - Of those youth who are employed, 2/3 are employed part-time
+
+  - Majority of youth in sample DO:
+      
+      - Have MDCD insurance
+      - Have a connection to an adult
+
+  - Higher Education Certification:
+      
+      - Majority of youth in sample have a High School Diploma or a GED
+      - 1.3% of youth have some form of higher education
+  
+  - Currently enrolled in higher education:
+      
+      - Of those youth who responded to this question:
+        - 55% of youth were currently enrolled in a higher education program
+
+  - Obtained employee skills:
+
+      - Of the youth who responded to this question: 
+        - About 1/3 responded yes
+
+  - Experienced homelessness, substance abuse, or incarceration:
+
+      - Of the youth who responded to these questions:
+        - 20% experienced homelessness
+        - 14% were substance abusers at one point
+        - 20% experienced incarceration
+
+  - I plan to drop the following variables since they were not applicable to a majority of youth in the sample:
+      
+      - Mental Health Insurance
+      - Medical Insurance
+
+----------------------------
 
 
 _________________________________________________________________________________________________
