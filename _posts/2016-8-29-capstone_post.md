@@ -286,20 +286,19 @@ ________________________________________________________________________________
     - Education Financial Services
 
     ** Iowa was an outlier, providing more of these services. 
-    Iowa also had disproportionately higher frequency of administering 13 services per youth.
+    Iowa also had disproportionately higher frequency of administering 
+    13 services per youth.
 
 ---
-
+<br>
   <pre>
-    <br>
     <B) Demographics vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/demo_v_target_table.png)
 
 ---
-
-  <pre>
-  <br>  
+<br>
+  <pre>  
     <C) Features vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
