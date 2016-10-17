@@ -269,7 +269,11 @@ ________________________________________________________________________________
     - Family Support
     - Other Financial Support
 
-    - The bar charts below demonstrate one example of how the service distributions varied by State and not by other demographic variables. Below, we can see that the likelihood of a foster youth receiving Academic Support was heavily dependent on the State rather than a youth's gender or race.
+    - The bar charts below demonstrate one example of how the service 
+    distributions varied by State and not by other demographic variables. 
+    Below, we can see that the likelihood of a foster youth receiving Academic 
+    Support was heavily dependent on the State rather than a youth's gender or 
+    race.
 
 ![Service Distributions: By state, sex, and race]({{ site.url }}/images/capstone/serv_dist_3demos.png)
 
@@ -281,11 +285,13 @@ ________________________________________________________________________________
     - Room and Board Financial Assistance
     - Education Financial Services
 
-    ** Iowa was an outlier, providing more of these services. Iowa also had disproportionately higher frequency of administering 13 services per youth
+    ** Iowa was an outlier, providing more of these services. 
+    Iowa also had disproportionately higher frequency of administering 13 services per youth.
 
 ---
 
   <pre>
+    <br>
     <B) Demographics vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/demo_v_target_table.png)
@@ -293,6 +299,7 @@ ________________________________________________________________________________
 ---
 
   <pre>
+  <br>  
     <C) Features vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
