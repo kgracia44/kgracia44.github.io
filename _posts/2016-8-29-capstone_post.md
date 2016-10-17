@@ -301,8 +301,6 @@ ________________________________________________________________________________
   <pre>  
     <b>C) Features vs Targets:</b></pre>
 
-![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
-
 Outcome distributions varied by services received for the following services:
 
   - Highest Education Certification
