@@ -292,14 +292,14 @@ ________________________________________________________________________________
 ---
 <br>
   <pre>
-    <B) Demographics vs Targets:</b></pre>
+    <b>B) Demographics vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/demo_v_target_table.png)
 
 ---
 <br>
   <pre>  
-    <C) Features vs Targets:</b></pre>
+    <b>C) Features vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
 
