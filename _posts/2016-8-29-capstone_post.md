@@ -290,18 +290,28 @@ ________________________________________________________________________________
     13 services per youth.
 
 ---
-<br>
+
   <pre>
     <b>B) Demographics vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/demo_v_target_table.png)
 
 ---
-<br>
+
   <pre>  
     <b>C) Features vs Targets:</b></pre>
 
 ![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
+
+Outcome distributions varied by services received for the following services:
+
+  - Highest Education Certification
+  - Current Enrollment in Higher Education
+  - Current Part-Time Employment
+  - Employee Skills
+  - Public Food Assistance
+
+One main take-away from the Features by Targets Bivariate Analysis: May need to drop blanks/Declines/Etc.
 
 _________________________________________________________________________________________________
 
