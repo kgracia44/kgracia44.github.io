@@ -259,41 +259,43 @@ ________________________________________________________________________________
 
   Out of all the demographic attributes (Sex, Race/Ethnicity, Grade Level, etc.), the variable 'State' was the only one in which the follwoing service distributions varied significantly:
 
-    - Independent Living Needs Assessment, Academic Support, Career Training, Employee Training, Budget Training, House Education, Health Education, Family Support, Other Financial Support
+    - Independent Living Needs Assessment
+    - Academic Support
+    - Career Training
+    - Employee Training
+    - Budget Training
+    - House Education
+    - Health Education
+    - Family Support
+    - Other Financial Support
 
     - The bar charts below demonstrate one example of how the service distributions varied by State and not by other demographic variables. Below, we can see that the likelihood of a foster youth receiving Academic Support was heavily dependent on the State rather than a youth's gender or race.
 
 ![Service Distributions: By state, sex, and race]({{ site.url }}/images/capstone/serv_dist_3demos.png)
 
 
-  - Majority of STATES did not provide much of the following services:
-      - PSEdSuppSv
-      - MentorSv
-      - SILsv
-      - RmBrdFAsv
-      - EducFinaSv
-        ** Iowa was an outlier, providing more of these services.
+  Majority of STATES did not provide much of the following services:
+    
+    - Post-Secondary Education Support
+    - Mentoring, Supervised Independent Living
+    - Room and Board Financial Assistance
+    - Education Financial Services
 
-          ----
+    ** Iowa was an outlier, providing more of these services. Iowa also had disproportionately higher frequency of administering 13 services per youth
 
-  - Number of services by state are normally distributed.
-      - Overall for states: Average # of services per youth: 2
-      - Outliers: 
-          - California had disproportionately higher frequency of administering two services per youth
-          - Iowa had disproportionately higher frequency of administering 13 services per youth
-          - These states were the only states that had instances of 0 services administered per youth:
-              - MD, ME, NY, VT (technically NY is excluded from this analysis)
-
-  - Number of services by education level:
-      - for all youth who received 0 services: they were either in 9, 10, or 11th grade. and blanks.
-      - overall, normal distribution for all grade levels. Outliers: #2 services
-
-  ---
+---
 
   <pre>
-    <b>A) Demographics vs Targets:</b></pre>
+    <B) Demographics vs Targets:</b></pre>
 
-    - Service dist
+![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/demo_v_target_table.png)
+
+---
+
+  <pre>
+    <C) Features vs Targets:</b></pre>
+
+![Outcome Distributions: By demographic variables]({{ site.url }}/images/capstone/feat_v_target_table.png)
 
 _________________________________________________________________________________________________
 
