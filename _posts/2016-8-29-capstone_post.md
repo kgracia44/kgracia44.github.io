@@ -247,17 +247,53 @@ ________________________________________________________________________________
   - I plan to drop the following variables since they were not applicable to a majority of youth in the sample:
       
       - Mental Health Insurance
-      - Medical Insurance0
+      - Medical Insurance
 
 ----------------------------
 
 
-##### BIVARIATE ANALYSIS::
+##### BIVARIATE ANALYSIS:
 
   <pre>
   <b>A) Demographics vs Features:</b></pre>
 
-  
+  Out of all the demographic attributes (Sex, Race/Ethnicity, Grade Level, etc.), the variable 'State' was the only one in which the follwoing service distributions varied significantly:
+
+    - Independent Living Needs Assessment, Academic Support, Career Training, Employee Training, Budget Training, House Education, Health Education, Family Support, Other Financial Support
+
+    - The bar charts below demonstrate one example of how the service distributions varied by State and not by other demographic variables. Below, we can see that the likelihood of a foster youth receiving Academic Support was heavily dependent on the State rather than a youth's gender or race.
+
+![Service Distributions: By state, sex, and race]({{ site.url }}/images/capstone/serv_dist_3demos.png)
+
+
+  - Majority of STATES did not provide much of the following services:
+      - PSEdSuppSv
+      - MentorSv
+      - SILsv
+      - RmBrdFAsv
+      - EducFinaSv
+        ** Iowa was an outlier, providing more of these services.
+
+          ----
+
+  - Number of services by state are normally distributed.
+      - Overall for states: Average # of services per youth: 2
+      - Outliers: 
+          - California had disproportionately higher frequency of administering two services per youth
+          - Iowa had disproportionately higher frequency of administering 13 services per youth
+          - These states were the only states that had instances of 0 services administered per youth:
+              - MD, ME, NY, VT (technically NY is excluded from this analysis)
+
+  - Number of services by education level:
+      - for all youth who received 0 services: they were either in 9, 10, or 11th grade. and blanks.
+      - overall, normal distribution for all grade levels. Outliers: #2 services
+
+  ---
+
+  <pre>
+    <b>A) Demographics vs Targets:</b></pre>
+
+    - Service dist
 
 _________________________________________________________________________________________________
 
